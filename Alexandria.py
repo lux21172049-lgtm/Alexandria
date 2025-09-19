@@ -37,7 +37,7 @@ print('''
         
 ''')
 
-st.logo("duke.png")
+
 
 def register_user(username, password):
     if 'users' not in st.session_state:
@@ -144,7 +144,7 @@ if not st.session_state.logged_in:
             st.rerun()
     
     else:
-        st.logo("duke.png") 
+         
         st.title("🔒 Sign in ")
         username = st.text_input("Username")
         password = st.text_input("Password", type="password")
