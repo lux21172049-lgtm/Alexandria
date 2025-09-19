@@ -61,7 +61,7 @@ def write_all_default_api(username: str) -> bool:
 
 if not st.session_state.logged_in:
     st.set_page_config(layout="wide")
-    st.logo("duke.png")
+    
 
     # CSS для фонового изображения
     st.markdown(
@@ -121,7 +121,7 @@ if not st.session_state.logged_in:
             st.rerun()
     
     else:
-        st.logo("duke.png") 
+        
         st.title("🔒 Sign in ")
         username = st.text_input("Username")
         password = st.text_input("Password", type="password")
