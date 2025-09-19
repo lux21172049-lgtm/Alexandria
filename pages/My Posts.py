@@ -7,7 +7,6 @@ import random
 import base64
 from io import BytesIO
 from PIL import Image
-import pytest
 import requests as req
 from typing import Optional, Dict, Any
 import uuid
