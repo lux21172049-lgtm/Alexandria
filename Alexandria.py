@@ -79,7 +79,7 @@ def login_api(username: str, password: str) -> bool:
 
 if not st.session_state.logged_in:
     st.set_page_config(layout="wide")
-    st.logo("duke.png")
+    
 
     # CSS для фонового изображения
     st.markdown(
