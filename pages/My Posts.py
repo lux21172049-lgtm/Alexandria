@@ -14,7 +14,7 @@ import uuid
 # Базовый URL API на Render
 API_BASE_URL = "https://alexandria-api-o9ev.onrender.com"
 
-st.logo("duke.png")
+
 
 def register_user(username, password):
     if 'users' not in st.session_state:
