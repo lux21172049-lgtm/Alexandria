@@ -165,7 +165,7 @@ if not st.session_state.logged_in:
 
 # Основной интерфейс после авторизации
 st.success(f"✅ Welcome to Alexandria, {st.session_state.username}!")        
-st.logo("duke.png")
+
 
 main_search = st.text_input(
     "Search",
